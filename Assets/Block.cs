@@ -7,7 +7,7 @@ public class Block : MonoBehaviour{
 
     private void Start()
     {
-        GetComponent<Rigidbody2D>().gravityScale += Time.timeSinceLevelLoad / 20f;
+        GetComponent<Rigidbody2D>().gravityScale += Time.timeSinceLevelLoad / 30f;
     }
 
     void Update()
